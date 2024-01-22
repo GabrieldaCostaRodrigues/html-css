@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: white;
+
+}
+
+header{
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.534));
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+
+}
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+header > p{
+    font-size: 16px;
+    color:white;
+    text-decoration: underline;
+    
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.274);
+    word-spacing: 12px;
+    padding: 5px;
+    
+
+   
+}
+nav > p {
+    padding-right: 15px;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+section.inicio{
+    font-size: 20px;
+    background-image: url('../imagens/comida1.jpg');
+    padding: 250px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+section.inicio > p{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+section.restante > h2{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+section.restante > h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+ul{
+    padding-bottom: 5px;
+    margin-left: 10px;
+    
+}
+
+
+main{
+    background-color: white;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
