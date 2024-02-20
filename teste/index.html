@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required placeholder="Digite seu nome...">
+            </p>
+            <p>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome...">
+            </p>
+            <p>
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade" required min="18" max="65" placeholder="Idade...">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required placeholder="Digite o seu E-mail...">
+            </p>
+            <p>
+               <label for="iestado">Estado:</label>
+               <input type="text" name="estado" id="iestado" list="listestado">
+               <datalist id="listestado">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+               </datalist><br>
+                
+               
+                <p>Reclamação:</p>
+                <textarea name="recla" id="irecla" cols="30" rows="10" required placeholder="Digite a sua reclamação..." style="resize: none;"></textarea><br><br>
+                
+            
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+       
+    </form>
+</body>
+</html>
