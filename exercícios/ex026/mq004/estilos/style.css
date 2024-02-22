@@ -21,12 +21,14 @@ body{
 
 main{
     background-color: rgba(255, 255, 255, 0.712);
-    width: 90vw;
+    width: 500px;
     margin:auto;
     margin-top: 20px;
     border-radius: 10px;
     padding: 10px;
 }
+
+
 
 h1{
     text-align: center;
@@ -40,25 +42,16 @@ img{
     margin: auto;
 }
 
-img#fone{
-    display: block;
-}
+img#fone{display: block;}
 
 img#tablet{
-    display: none;
-}
+display: none;}
 
 
-img#print{
-    display: none;
-}
+img#print{display: none;}
 
 
-img#pc{
-    display: none;
-}
+img#pc{display: none;}
 
 
-img#tv{
-    display: none;
-}
+img#tv{display: none;}
